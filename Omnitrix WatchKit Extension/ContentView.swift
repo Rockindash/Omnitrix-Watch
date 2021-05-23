@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var tabSelection = 1
-    var imageList = ["Original", "Diamondhead", "Ghostfreak", "Cannonbolt", "Greymatter", "XLR8"]
+    var imageList = ["Original" , "Diamondhead", "Cannonbolt", "XLR8"]
     
     var body: some View {
         List {

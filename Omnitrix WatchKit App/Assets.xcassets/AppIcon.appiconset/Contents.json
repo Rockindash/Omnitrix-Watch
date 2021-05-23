@@ -15,12 +15,14 @@
       "subtype" : "42mm"
     },
     {
+      "filename" : "iPhone@2x.png",
       "idiom" : "watch",
       "role" : "companionSettings",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
+      "filename" : "iPhone@3x.png",
       "idiom" : "watch",
       "role" : "companionSettings",
       "scale" : "3x",
