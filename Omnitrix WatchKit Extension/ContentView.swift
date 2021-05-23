@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var tabSelection = 1
+    var imageList = ["Original", "Diamondhead", "Ghostfreak", "Cannonbolt", "Greymatter", "XLR8"]
+    
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        List {
+            ForEach(imageList.indices, id: \.self) { index in
+                Card(title: imageList[index])
+                    .background(Color.black)
+            }
+        }
+        .listStyle(CarouselListStyle())
+        .background(Color.black)
     }
 }
 
